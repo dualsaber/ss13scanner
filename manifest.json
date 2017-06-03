@@ -1,0 +1,30 @@
+{
+  "name": "Space Station 13 Game Server Scanner",
+  "version": "0.0.1",
+  "version_name": "0.0.1 - honk",
+  "description": "Checks plenty of game servers and notify user about incidents.",
+  "icons": {
+    "16": "img/ss13.png",
+    "48": "img/ss13.png",
+    "128": "img/ss13.png"
+  },
+  "permissions": [
+    "notifications",
+    "http://*/",
+    "storage"
+  ],
+  "author": "Can Ağırkaya",
+  "options_page": "options/options.html",
+  "background": {
+    "scripts": [
+      "js/jquery.js",
+      "background.js"
+    ]
+  },
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "img/ss13.png"
+  ],
+  "offline_enabled":false,
+  "short_name": "SS13 Scanner"
+}
